@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package greeting.v1;
 
-option go_package = "https://github.com/michelleCarballo/projeto-go/tree/main/proto/greeting/common/v1";
+option go_package = "https://github.com/michelleCarballo/projeto-go/tree/main/proto/greeting/v1";
 
 import "greeting/common/v1/message.proto";
 
@@ -17,3 +17,4 @@ message GreetRequest {
 message GreetResponse {
   string resp = 1;
 }
+
