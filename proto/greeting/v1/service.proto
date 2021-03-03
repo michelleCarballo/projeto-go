@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package greeting.v1;
 
-option go_package = "github.com/{{YOUR_REPO}}/pkg/pb/greeting/v1;greeting_v1";
+option go_package = "https://github.com/michelleCarballo/projeto-go/tree/main/proto/greeting/common/v1";
 
 import "greeting/common/v1/message.proto";
 
